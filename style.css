@@ -105,10 +105,19 @@ nav li {
     border-radius: 20px;
     padding: 12px;
     cursor: pointer;
+    border: 0;
 }
 
-.benefit-section .card:hover {
-    background-color: #01F1FE;
+.benefit-section .btn {
+    background-color: #27AAE2 !important;
+}
+
+.benefit-section .card p {
+    color: #838fa1;
+}
+
+.benefit-section .card h1 {
+    color: #052F6C;
 }
 
 .faq-section {
@@ -156,6 +165,8 @@ nav li {
     .about-image {
         display: flex;
         justify-content: center;
+        order: 2;
+        margin-top: 24px;
     }
 
     .about {
@@ -163,10 +174,12 @@ nav li {
     }
 
     .about-content {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .about-content img {
-        width: 90%
+        width: 100%
     }
 }
