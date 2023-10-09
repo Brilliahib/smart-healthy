@@ -17,7 +17,7 @@ nav li {
 .home {
     display: flex;
     align-items: center;
-    min-height: 90vh;
+    min-height: 100vh;
     padding-top: 48px;
     overflow: hidden;
 }
