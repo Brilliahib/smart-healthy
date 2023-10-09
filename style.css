@@ -110,6 +110,7 @@ nav li {
 
 .benefit-section .btn {
     background-color: #27AAE2 !important;
+    border: 0;
 }
 
 .benefit-section .card p {
@@ -127,6 +128,68 @@ nav li {
 
 .faq-section .accordion-item {
     margin-bottom: 24px;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.cta-content {
+    background-color: #01F1FE;
+    padding: 64px 48px;
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+}
+
+.cta-text .button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-content h3 {
+    text-align: center;
+    margin-bottom: 36px;
+    color: #052F6C;
+}
+
+.cta-content .button {
+    display: inline-block;
+}
+
+.footer {
+    background-color: #F4FCFF;
+    padding-top: 48px;
+}
+
+.footer .heading {
+    padding-top: 0px;
+    color: #052F6C;
+}
+
+.footer .footer-img p {
+    color: #838fa1;
+}
+
+.footer .footer-links {
+    text-align: center;
+}
+
+.footer .footer-links p a {
+    text-decoration: none;
+    color: #838fa1;
+}
+
+.footer .footer-konsultasi {
+    text-align: center;
+}
+
+.footer .footer-konsultasi p a {
+    text-decoration: none;
+    color: #838fa1;
 }
 
 /* HANDPHONE */
@@ -185,5 +248,26 @@ nav li {
 
     .benefit-section .card img {
         width: 95%;
+    }
+
+    .cta {
+        min-height: auto;
+        padding: 48px 0;
+    }
+
+    .footer .footer-img img {
+        width: 150px;
+    }
+
+    .footer .footer-konsultasi {
+        text-align: left;
+    }
+
+    .footer .footer-links {
+        text-align: left;
+    }
+
+    .footer .heading {
+        text-align: left;
     }
 }
