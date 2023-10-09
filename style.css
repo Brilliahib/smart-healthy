@@ -19,6 +19,7 @@ nav li {
     align-items: center;
     min-height: 90vh;
     padding-top: 48px;
+    overflow: hidden;
 }
 
 .home-content {
@@ -63,6 +64,7 @@ nav li {
     min-height: 100vh;
     background-color: #F4FCFF;
     padding-bottom: 48px;
+    overflow: hidden;
 }
 
 .about-content {
@@ -99,6 +101,7 @@ nav li {
 
 .benefit-section {
     padding-bottom: 48px;
+    overflow: hidden;
 }
 
 .benefit-section .card {
@@ -124,6 +127,7 @@ nav li {
 .faq-section {
     background-color: #F4FCFF;
     padding-bottom: 48px;
+    overflow: hidden;
 }
 
 .faq-section .accordion-item {
@@ -135,6 +139,7 @@ nav li {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .cta-content {

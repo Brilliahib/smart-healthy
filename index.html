@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -48,13 +49,14 @@
     <section id="home" class="home">
         <div class="container">
             <div class="home-content">
-                <div class="home-text">
+                <div class="home-text" data-aos="fade-right" data-aos-duration="1000">
                     <h1 class="fw-bold">Jaga Kesehatan Anda Dengan Kami</h1>
                     <p>Kesehatan merupakan suatu hal penting yang harus dijaga oleh setiap manusia. Kami hadir untuk
                         memberikan konsultasi kesehatan untuk memenuhi kebutuhan anda.</p>
                     <a href="" class="button">Hubungi Kami</a>
                 </div>
-                <div class="home-image d-flex align-items-center flex-column">
+                <div class="home-image d-flex align-items-center flex-column" data-aos="fade-left"
+                    data-aos-duration="1000">
                     <img src="img/dokter.png" alt="">
                 </div>
             </div>
@@ -65,10 +67,10 @@
     <section id="about" class="about">
         <div class="container">
             <div class="about-content">
-                <div class="about-image">
+                <div class="about-image" data-aos="fade-right" data-aos-duration="1000">
                     <img src="img/konsultasi.png" alt="">
                 </div>
-                <div class="about-text">
+                <div class="about-text" data-aos="fade-left" data-aos-duration="1000">
                     <h1 class="fw-bold">Apa pentingnya konsultasi kesehatan?</h1>
                     <p>Konsultasi kesehatan merupakan kebutuhan yang sangat penting untuk memeriksa kondisi kesehatan
                         Anda. Di era seperti ini banyak terjadi perubahan seperti lingkungan dan makanan tidak sehat
@@ -86,7 +88,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 mb-3 mb-sm-0">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card-body shadow-sm border-0">
                             <img class="rounded mb-3" src="img/img-layanan(1).jpg" width="300px" alt="">
                             <p class="card-title fw-bold text-black">Konsultasi Selama 24 Jam</p>
@@ -99,7 +101,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4 mb-3 mb-sm-0">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <div class="card-body shadow-sm border-0">
                             <img class="rounded mb-3" src="img/img-layanan(2).jpg" width="300px" alt="">
                             <p class="card-title fw-bold text-black">Rekam Medis</p>
@@ -113,7 +115,7 @@
                 </div>
 
                 <div class="col-sm-4">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                         <div class="card-body shadow-sm border-0">
                             <img class="rounded mb-3" src="img/img-layanan(3).jpg" width="300px" alt="">
                             <p class="card-title fw-bold text-black">Rekomendasi Dokter</p>
@@ -273,6 +275,10 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
