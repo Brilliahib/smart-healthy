@@ -17,7 +17,7 @@ nav li {
 .home {
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
     padding-top: 48px;
     overflow: hidden;
 }
@@ -48,6 +48,14 @@ nav li {
     padding: 12px 24px;
     text-decoration: none;
     border-radius: 10px;
+}
+
+.hover-button {
+    transition: transform 0.2s ease;
+}
+
+.hover-button:hover {
+    transform: translateY(-3px);
 }
 
 .home-image {
@@ -133,7 +141,6 @@ nav li {
 .benefit-section .card {
     border-radius: 20px;
     padding: 12px;
-    cursor: pointer;
     border: 0;
 }
 
@@ -185,6 +192,41 @@ nav li {
 
 .cta-content .button {
     display: inline-block;
+}
+
+.dokter-section {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+.dokter-section .card {
+    border-radius: 20px;
+    padding: 12px;
+    border: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .footer {
@@ -300,5 +342,9 @@ nav li {
 
     .footer .heading {
         text-align: left;
+    }
+
+    .dokter-section {
+        min-height: auto;
     }
 }
