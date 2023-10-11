@@ -109,6 +109,11 @@ nav li {
     color: #052F6C;
 }
 
+.heading p {
+    color: #838fa1;
+    line-height: 1.5;
+}
+
 .under-heading {
     display: flex;
     justify-content: center;
@@ -125,7 +130,7 @@ nav li {
     overflow: hidden;
 }
 
-.benefit-section .heading h1 {
+.heading h1 {
     margin-bottom: 16px;
 }
 
@@ -202,9 +207,11 @@ nav li {
     padding-bottom: 48px;
 }
 
-.dokter-section .card {
-    border-radius: 20px;
-    padding: 12px;
+.swiper-slide .card-body {
+    border: 0;
+}
+
+.swiper-slide .card {
     border: 0;
 }
 
@@ -223,8 +230,8 @@ nav li {
 }
 
 .swiper-slide img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -346,5 +353,9 @@ nav li {
 
     .dokter-section {
         min-height: auto;
+    }
+
+    .heading p br {
+        display: none;
     }
 }
